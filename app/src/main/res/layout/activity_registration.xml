@@ -386,7 +386,8 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="normal|bold"
-            app:backgroundTint="#FFDE03" />
+            app:backgroundTint="#FFDE03"
+            app:cornerRadius="20dp" />
 
         <Button
             android:id="@+id/btnBack"
@@ -402,7 +403,8 @@
             android:textColor="@color/white"
             android:textSize="18sp"
             android:textStyle="normal|bold"
-            app:backgroundTint="#FFDE03" />
+            app:backgroundTint="#FFDE03"
+            app:cornerRadius="20dp" />
     </LinearLayout>
 
 </LinearLayout>
