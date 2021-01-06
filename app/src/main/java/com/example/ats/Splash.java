@@ -12,7 +12,7 @@ import static java.lang.Thread.sleep;
 
 public class Splash extends AppCompatActivity {
 
-    TextView tvATS;
+    TextView tvATS, tvSince;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,9 +20,11 @@ public class Splash extends AppCompatActivity {
         setContentView(R.layout.activity_splash);
 
         tvATS = findViewById(R.id.ATS);
+        tvSince = findViewById(R.id.since);
 
         Animation atsanim = AnimationUtils.loadAnimation(this,R.anim.atsanimation);
         tvATS.startAnimation(atsanim);
+        tvSince.startAnimation(atsanim);
 
         Thread myThread = new Thread(new Runnable() {
             @Override
