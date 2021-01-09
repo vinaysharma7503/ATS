@@ -119,13 +119,13 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/etDate"
+        <TextView
+            android:id="@+id/tvDateRe"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="date" />
+            android:text="Date Of Registration"/>
 
     </LinearLayout>
 
@@ -151,8 +151,8 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/etCourseFee"
+        <TextView
+            android:id="@+id/tvCourseFees"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
@@ -162,8 +162,7 @@
             android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Enter CourseFee"
-            android:inputType="textPersonName" />
+            android:text="CourseFee" />
     </LinearLayout>
 
     <LinearLayout
@@ -224,19 +223,13 @@
             android:textSize="18sp"
             android:textStyle="bold" />
 
-        <EditText
-            android:id="@+id/etNextDueDate"
+        <TextView
+            android:id="@+id/tvNxtDueDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginEnd="10dp"
-            android:layout_marginRight="10dp"
             android:layout_weight="1"
             android:ems="10"
-            android:hint="Next DueDate"
-            android:inputType="textPersonName" />
+            android:text="Next Due Date" />
     </LinearLayout>
 
     <LinearLayout
