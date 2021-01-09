@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:background="@color/purple_200"
+        android:background="@drawable/dashboard"
         android:orientation="vertical">
 
         <RelativeLayout
@@ -24,9 +24,11 @@
                 android:id="@+id/dashboard"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:textSize="24sp"
+                android:fontFamily="@font/annie_use_your_telescope"
                 android:text="ATS DASHBOARD"
-                android:textColor="@color/white"/>
+                android:textColor="#DE6262"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
             <ImageView
                 android:id="@+id/userimage"
@@ -35,16 +37,19 @@
                 android:layout_height="62dp"
                 android:src="@drawable/user"
                 android:layout_alignParentRight="true" />
+
             <TextView
                 android:id="@+id/username"
-                android:layout_below="@+id/userimage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/userimage"
                 android:layout_alignParentEnd="true"
-                android:textSize="24sp"
+                android:layout_alignParentRight="true"
+                android:fontFamily="@font/annie_use_your_telescope"
                 android:text="UserName"
-                android:textColor="@color/white"
-                android:layout_alignParentRight="true" />
+                android:textColor="#DE6262"
+                android:textSize="24sp"
+                android:textStyle="bold" />
 
         </RelativeLayout>
 
@@ -82,7 +87,11 @@
                         android:id="@+id/btnWebsite"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Website"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -114,7 +123,11 @@
                         android:id="@+id/btnEdit"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Edit Details"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -145,7 +158,11 @@
                         android:id="@+id/btnFee"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Fee Details"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -176,7 +193,11 @@
                         android:id="@+id/btnBooks"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Books"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -207,7 +228,11 @@
                         android:id="@+id/btnNotes"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Notes"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -238,7 +263,11 @@
                         android:id="@+id/btnAssignments"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Assignments"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -269,7 +298,11 @@
                         android:id="@+id/btnSyllabus"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Syllabus"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -300,7 +333,11 @@
                         android:id="@+id/btnManuals"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Manuals"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -331,7 +368,11 @@
                         android:id="@+id/btnLabManuals"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Lab Manuals"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
@@ -362,7 +403,11 @@
                         android:id="@+id/btnInterviewQuestions"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:fontFamily="@font/annie_use_your_telescope"
                         android:text="Interview Questions"
+                        android:textColor="#DE6262"
+                        android:textStyle="bold"
+                        app:backgroundTint="#FFC107"
                         app:cornerRadius="20dp" />
                 </LinearLayout>
             </androidx.cardview.widget.CardView>

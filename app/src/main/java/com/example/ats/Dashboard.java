@@ -10,7 +10,7 @@ import android.widget.GridLayout;
 
 public class Dashboard extends AppCompatActivity {
 
-    Button btnWebsite;
+    Button btnWebsite, btnEdit,btnFee,btnBooks;
 
 
     @Override
@@ -18,7 +18,8 @@ public class Dashboard extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_dashboard);
 
-        btnWebsite = findViewById(R.id.btnWebsite);
+//        Website Button
+        btnWebsite = (Button) findViewById(R.id.btnWebsite);
 
         btnWebsite.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -28,6 +29,38 @@ public class Dashboard extends AppCompatActivity {
             }
         });
 
+//        Edit Details Button
+        btnEdit = (Button) findViewById(R.id.btnEdit);
+
+        btnEdit.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent e = new Intent(Dashboard.this,com.example.ats.EditDetails.class);
+                startActivity(e);
+            }
+        });
+
+        //        Fee Button
+        btnFee = (Button) findViewById(R.id.btnFee);
+
+        btnFee.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent f = new Intent(Dashboard.this,com.example.ats.FeeDetails.class);
+                startActivity(f);
+            }
+        });
+
+        //        Books Button
+        btnBooks = (Button) findViewById(R.id.btnBooks);
+
+        btnBooks.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bo = new Intent(Dashboard.this,com.example.ats.Books.class);
+                startActivity(bo);
+            }
+        });
 
     }
 

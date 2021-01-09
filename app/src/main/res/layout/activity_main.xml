@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0336FF"
+    android:background="@drawable/welcome"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -25,10 +25,11 @@
             android:layout_marginEnd="20dp"
             android:layout_marginRight="20dp"
             android:layout_weight="1"
+            android:fontFamily="@font/annie_use_your_telescope"
             android:gravity="center_horizontal"
             android:padding="10dp"
             android:text="Welcome To ATS"
-            android:textColor="@color/white"
+            android:textColor="#DE6262"
             android:textSize="36sp"
             android:textStyle="normal|bold" />
     </LinearLayout>
@@ -47,12 +48,14 @@
             android:layout_marginLeft="50dp"
             android:layout_marginEnd="50dp"
             android:layout_marginRight="50dp"
-            android:background="#FFDE03"
+            android:fontFamily="@font/annie_use_your_telescope"
             android:text="Registration"
-            android:textColor="@color/white"
+            android:textColor="#DE6262"
+            android:textColorHighlight="#03A9F4"
             android:textSize="18sp"
             android:textStyle="normal|bold"
-            app:backgroundTint="#FFDE03" />
+            app:backgroundTint="#FFC107"
+            app:cornerRadius="15dp" />
     </LinearLayout>
 
 </LinearLayout>

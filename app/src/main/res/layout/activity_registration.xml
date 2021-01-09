@@ -4,12 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#0336FF"
+    android:background="@drawable/faq"
     android:orientation="vertical"
     tools:context=".Registration">
 
     <TextView
-        android:id="@+id/tvRegistration"
+        android:id="@+id/tvEdit"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
@@ -17,11 +17,12 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="30dp"
         android:layout_marginRight="30dp"
+        android:fontFamily="@font/annie_use_your_telescope"
         android:gravity="center_horizontal"
-        android:padding="10dp"
+        android:padding="2dp"
         android:text="Registration"
-        android:textColor="#ffffff"
-        android:textSize="20dp"
+        android:textColor="#DE6262"
+        android:textSize="25sp"
         android:textStyle="normal|bold" />
 
     <LinearLayout
@@ -39,10 +40,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Name"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etName"
@@ -73,10 +76,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Course"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spinner"
@@ -107,10 +112,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Date Of Registration"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etDate"
@@ -137,10 +144,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="CourseFee"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etCourseFee"
@@ -172,10 +181,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Installments"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <Spinner
             android:id="@+id/spinnerInstallment"
@@ -206,10 +217,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Next DueDate"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etNextDueDate"
@@ -241,10 +254,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Father Name"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etFatherName"
@@ -276,10 +291,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Address"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etAddress"
@@ -311,10 +328,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="College"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etCollege"
@@ -346,10 +365,12 @@
             android:layout_marginEnd="5dp"
             android:layout_marginRight="5dp"
             android:layout_weight="1"
-            android:paddingLeft="5dp"
+            android:fontFamily="@font/annie_use_your_telescope"
+            android:paddingLeft="2dp"
             android:text="Course"
-            android:textColor="#ffffff"
-            android:textSize="18sp" />
+            android:textColor="#DE6262"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/etCourse"
@@ -381,13 +402,13 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
-            android:background="#FFDE03"
+            android:fontFamily="@font/annie_use_your_telescope"
             android:text="Submit"
-            android:textColor="@color/white"
+            android:textColor="#DE6262"
             android:textSize="18sp"
-            android:textStyle="normal|bold"
-            app:backgroundTint="#FFDE03"
-            app:cornerRadius="20dp" />
+            android:textStyle="bold"
+            app:backgroundTint="#FFC107"
+            app:cornerRadius="15dp" />
 
         <Button
             android:id="@+id/btnBack"
@@ -398,13 +419,13 @@
             android:layout_marginTop="2dp"
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
-            android:background="#FFDE03"
+            android:fontFamily="@font/annie_use_your_telescope"
             android:text="Back"
-            android:textColor="@color/white"
+            android:textColor="#DE6262"
             android:textSize="18sp"
-            android:textStyle="normal|bold"
-            app:backgroundTint="#FFDE03"
-            app:cornerRadius="20dp" />
+            android:textStyle="bold"
+            app:backgroundTint="#FFC107"
+            app:cornerRadius="15dp" />
     </LinearLayout>
 
 </LinearLayout>
