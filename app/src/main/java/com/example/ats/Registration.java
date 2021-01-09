@@ -15,8 +15,9 @@ public class Registration extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
 
+//        Submit Button
+
         btnSubmit = findViewById(R.id.btnSubmit);
-        btnBack = findViewById(R.id.btnBack);
 
         btnSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,6 +26,10 @@ public class Registration extends AppCompatActivity {
                 startActivity(s);
             }
         });
+
+//        Back Button
+
+        btnBack = findViewById(R.id.btnBack);
 
         btnBack.setOnClickListener(new View.OnClickListener() {
             @Override
