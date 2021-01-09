@@ -24,6 +24,7 @@ public class Registration extends AppCompatActivity {
             public void onClick(View v) {
                 Intent s = new Intent(Registration.this,com.example.ats.Dashboard.class);
                 startActivity(s);
+                finish();
             }
         });
 
@@ -36,6 +37,7 @@ public class Registration extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Registration.this,com.example.ats.RegistrationDate.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

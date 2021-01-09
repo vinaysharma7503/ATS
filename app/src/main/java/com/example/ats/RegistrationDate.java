@@ -23,6 +23,7 @@ public class RegistrationDate extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(RegistrationDate.this,com.example.ats.Registration.class);
                 startActivity(intent);
+                finish();
             }
         });
     }
