@@ -19,6 +19,8 @@ public class Splash extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+
+
         tvATS = findViewById(R.id.ATS);
         tvSince = findViewById(R.id.since);
 

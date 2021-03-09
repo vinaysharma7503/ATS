@@ -49,8 +49,21 @@
         android:fontFamily="cursive"
         android:gravity="center_horizontal"
         android:padding="10dp"
-        android:text="Developed By:ASCORP TECHNOLOGIES"
+        android:text="Developed By:VINAY SHARMA"
         android:textColor="#DE6262"
         android:textSize="24sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/version"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ASCORP"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Version 1.0.0"
+        android:textColor="#DE6262"
+        android:textSize="18sp"/>
 </RelativeLayout>

@@ -10,7 +10,7 @@ import android.widget.GridLayout;
 
 public class Dashboard extends AppCompatActivity {
 
-    Button btnWebsite, btnEdit,btnFee,btnBooks;
+    Button btnWebsite, btnEdit,btnFee,btnBooks,btnNotes,btnAssignments,btnSyllabus,btnManuals,btnLabManuals,btnInterviewQuestions;
 
 
     @Override
@@ -59,6 +59,28 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View v) {
                 Intent bo = new Intent(Dashboard.this,com.example.ats.Books.class);
                 startActivity(bo);
+            }
+        });
+
+        //   Notes Button
+        btnNotes = (Button) findViewById(R.id.btnNotes);
+
+        btnNotes.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent n = new Intent(Dashboard.this,com.example.ats.Notes.class);
+                startActivity(n);
+            }
+        });
+
+        //   Assignments Button
+        btnAssignments = (Button) findViewById(R.id.btnAssignments);
+
+        btnAssignments.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent a = new Intent(Dashboard.this,com.example.ats.Assignments.class);
+                startActivity(a);
             }
         });
 
